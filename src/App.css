@@ -1,0 +1,120 @@
+.App {
+  /* font-family: Arial, sans-serif; */
+}
+
+.Pelis {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #4a77d4;
+}
+
+.nav h1 {
+  color: aliceblue;
+}
+
+.links button {
+  margin: 20px;
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.links button:hover{
+  background-color: #555555;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: white
+}
+
+.movie-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  background-color: rgba(0, 102, 255, 0.055);
+}
+
+.movie-info-left {
+  display: flex;
+  align-items: center;
+}
+
+.movie-rank {
+  color: #2C2D2F;
+  font-size: 24px;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+.movie-poster {
+  width: 170px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.movie-info-right {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: white
+}
+
+.movie-title {
+  color: #2C2D2F;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: white
+}
+
+.movie-rating {
+  color: #2C2D2F;
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: white
+}
+
+.movie-overview {
+  color: #2C2D2F;
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: white
+}
+
+.movie-netflix-available {
+  color: green;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.movie-netflix-unavailable {
+  color: red;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.filters{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  color: white
+}
+
